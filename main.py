@@ -1,5 +1,5 @@
-dia = 16
-mes = 6
+dia = int(input())
+mes = int(input())
 
 if  (31>= dia >=21 and mes ==3)or(1<= dia<=20 and mes==4):
        print("aries")
@@ -21,7 +21,7 @@ if  (30>= dia >=23 and mes ==11)or(1<= dia<=21 and mes==12):
        print("sagitario")
 if  (31>= dia >=22 and mes ==12)or(1<= dia<=20 and mes==1):
        print("capricornio")
-if  (31>= dia >=21 and mes ==1)or(1<= dia<=18 and mes==2):
+if  (31>= dia >=20 and mes ==1)or(1<= dia<=19 and mes==2):
        print("acuario")
 if  (29>= dia >=19 and mes ==2)or(1<= dia<=20 and mes==3):
        print("piscis")
