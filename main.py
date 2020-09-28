@@ -1,5 +1,5 @@
-dia = int(input())
-mes = int(input())
+dia = 16
+mes = 6
 
 if  (31>= dia >=21 and mes ==3)or(1<= dia<=20 and mes==4):
        print("aries")
