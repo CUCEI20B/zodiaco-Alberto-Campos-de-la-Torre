@@ -1,5 +1,5 @@
-dia = int(input("Ingresa el dia de tu fecha de nacimiento = "))
-mes = int(input("Ingresa el mes de tu nacimiento = "))
+dia = int(input())
+mes = int(input())
 
 if  (31>= dia >=21 and mes ==3)or(1<= dia<=20 and mes==4):
        print("aries")
